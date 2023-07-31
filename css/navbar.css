@@ -66,11 +66,11 @@
     letter-spacing: 1px;
     padding: 5px 10px;
     border-radius: var(--radius);
+    transition: var(--transition);
   }
   .nav-container .nav-link.active,
   .nav-container .nav-link:hover {
-    transition: var(--transition);
-    background: var(--clr-white-light);
+    background: var(--clr-blue-light);
     color: var(--clr-black);
   }
   .nav-social-links-main {
